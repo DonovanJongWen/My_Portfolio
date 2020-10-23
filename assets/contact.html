@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Donovan's Page</title>
+    <title>Please leave a Message</title>
 
     <!--Bootstrap link-->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -14,7 +14,9 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!--Stylesheet link-->
-    <link rel="stylesheet" href="assets/style.css" </head>
+    <link rel="stylesheet" href="assets/style.css"
+
+</head>
 
 <body>
     <!--Navigation bar-->
@@ -24,54 +26,60 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <!--Navigation menu elements-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#" style="color:black">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../index.html" style="color:black">About<span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./assets/portfolio.html" style="color:black">Portfolio</a>
+                    <a class="nav-link" href="./portfolio.html" style="color:black">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./assets/contact.html" style=color:black>Contact</a>
+                    <a class="nav-link" href="./contact.html" style=color:black>Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    
+
     <!--Main Page Container-->
     <div class="container-fluid">
 
         <div class="row">
+
             <div class="col-10">
                 <div class="wrapper">
-                    <!--Header 1-->
                     <div class="row">
-                        <div class="col">
-                            <h1>About Me</h1>
+                        <div class="col-10">
+                            <h1>Contact</h1>
                         </div>
                     </div>
-                    <!--Column-->
+
                     <div class="row">
-                        <div class="col">
-                            <p>
-                                <img src="./assets/Pp.jpeg" class="img-fluid" alt="Donovan Jong Wen">
-                                Graduated from Curtin University around late 2018 with a Bachelor Degree of Applied
-                                Science (Construction Management), I have a year and three months worth of experience as
-                                a Quantity Surveyor Consultant.
+                        <div class="col-10">
+                            <form>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput">Name</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput"
+                                        placeholder="Name">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        placeholder="Email">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                                </div>
+
+                                <button type="submit" class="button">Submit</button>
                                 <br>
                                 <br>
-                                From my experience in Turner & Townsend, I developed my interpersonal skills as a
-                                consultant and knowledge of what it takes to be a quantity surveyor. I was involved in
-                                helping the team with data checks, quantity checks, bill of quantity checks and helping
-                                to manage the red bar system.
-                                <br>
-                                <br>
-                                Now looking for options for career change/upskill, I am currently undertaking a full
-                                stack development coding bootcamp through UWA until January 2021.
-                            </p>
+                            </form>
                         </div>
                     </div>
                 </div>
